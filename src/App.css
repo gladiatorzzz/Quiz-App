@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+
+body {
+  background: #FFF8F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+
+
+
+h1 {
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+h3 {
+  margin: 30px 0;
+  font-size: 1.5rem;
+}
+
+.title{
+  padding-top: 60px;
+  
+}
+.title h2{
+  size: 30px;
+}
+
+.maindiv{
+  color: #fbfdff;
+  padding-top: 60px;
+  text-align: center;
+  justify-content: center;
+  width: 650px;
+  background-color: #2d2b2b;
+  height:500px;
+  margin-left: 450px;
+  border-radius:5%;
+  border-color: #CBD5E1;
+}
+div {
+  text-align: center;
+
+  
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+button {
+  margin: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #2563EB;
+  color: rgb(255, 252, 252);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  width:500px;
+}
+
+button:hover {
+  background: #153fa8;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(0.97);
+}
